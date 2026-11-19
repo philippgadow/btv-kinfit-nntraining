@@ -1,0 +1,13 @@
+name: kinfit-nn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch          # conda-forge picks the CUDA build when a GPU is visible (see setup_env.sh)
+  - numpy
+  - awkward
+  - uproot
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - ipykernel        # to use the environment in Jupyter
