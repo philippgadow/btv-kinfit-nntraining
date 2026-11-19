@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Outputs: caches, trained models, scores
+cache/
+runs/
+*.npz
+*.pt
+*.root
